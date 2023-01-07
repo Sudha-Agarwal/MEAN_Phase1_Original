@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    /*background-image: url("Web_Photo_Editor (4).jpg");
+    background-position: right top;*/
+}
+
+#emptable{
+   /* border-width: 5px;
+    border-style: dotted;
+    border-color: lightcoral;*/
+
+    /*shorthand property*/
+    border: 5px solid black;
+}
+
+div.divText{
+    border: 1px solid black;
+
+    max-width:800px;
+    margin:auto;
+
+   /* margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;*/
+
+    /*margin: 100px 20px 80px 80px;*/
+
+    padding: 20px;
+
+    height:200px;
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform:capitalize;
+    text-indent: 50px;
+    font-variant: small-caps;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: thick;
+   /*display: none;*/
+   position: relative;
+   top:30px;
+}
+
+li{
+    display: inline;
+}
+
